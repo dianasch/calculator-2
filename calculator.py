@@ -17,7 +17,8 @@ def prefix_notation_calculator():
         return subtract(operation_input[1], operation_input[2])
     elif operation_input[0] == "*":
         return multiply(operation_input[1], operation_input[2])
-
+    elif operation_input[0] == "/":
+        return divide(operation_input[1], operation_input[2])
 
 while True:
     user_calculation = input()
