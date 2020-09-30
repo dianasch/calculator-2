@@ -14,7 +14,9 @@ def prefix_notation_calculator():
     if operation_input[0] == "+":
         return add(operation_input[1], operation_input[2])
     elif operation_input[0] == "-":
-        return subtract(operation_input[1], operation_input[2])  
+        return subtract(operation_input[1], operation_input[2])
+    elif operation_input[0] == "*":
+        return multiply(operation_input[1], operation_input[2])
 
 
 while True:
