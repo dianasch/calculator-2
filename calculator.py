@@ -21,6 +21,10 @@ def prefix_notation_calculator():
         return divide(operation_input[1], operation_input[2])
     elif operation_input[0] == "square":
         return square(operation_input[1], operation_input[2])
+    elif operation_input[0] == "cube":
+        return cube(operation_input[1], operation_input[2])
+    elif operation_input[0] == "pow":
+        return power(operation_input[1], operation_input[2])
 
 while True:
     user_calculation = input()
